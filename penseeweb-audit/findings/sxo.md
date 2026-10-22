@@ -24,4 +24,4 @@
 2. **Contact Link Behaviour:**
    - The "Contact" button in the navigation links to an individual's LinkedIn profile (`https://www.linkedin.com/in/rvunveil/`). While authentic for an early-stage founder, an email fallback (`contact@penseeweb.com` or `mailto:`) increases institutional trust.
 3. **CTA Consistency:**
-   - Ensure conversion paths lead seamlessly into the interactive Web App (`https://penseeweb.netlify.app/`).
+   - Ensure conversion paths lead seamlessly into the interactive Web App (`https://penseeweb.in/`).

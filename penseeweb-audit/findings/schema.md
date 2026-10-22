@@ -37,10 +37,10 @@ Currently, **not a single page on PenseeWeb has any Schema.org markup** (no Micr
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://penseeweb.netlify.app/#organization",
+      "@id": "https://penseeweb.in/#organization",
       "name": "PenseeWeb",
-      "url": "https://penseeweb.netlify.app",
-      "logo": "https://penseeweb.netlify.app/images/46f963da-8a3b-4910-83d0-4f154756.avif",
+      "url": "https://penseeweb.in",
+      "logo": "https://penseeweb.in/images/46f963da-8a3b-4910-83d0-4f154756.avif",
       "description": "India's premier AI-powered visual learning and mindmapping platform for students, competitive exam aspirants, and educators.",
       "sameAs": [
         "https://www.linkedin.com/in/penseeweb",
@@ -51,20 +51,20 @@ Currently, **not a single page on PenseeWeb has any Schema.org markup** (no Micr
     },
     {
       "@type": "WebSite",
-      "@id": "https://penseeweb.netlify.app/#website",
-      "url": "https://penseeweb.netlify.app",
+      "@id": "https://penseeweb.in/#website",
+      "url": "https://penseeweb.in",
       "name": "PenseeWeb",
       "publisher": {
-        "@id": "https://penseeweb.netlify.app/#organization"
+        "@id": "https://penseeweb.in/#organization"
       }
     },
     {
       "@type": "SoftwareApplication",
-      "@id": "https://penseeweb.netlify.app/#app",
+      "@id": "https://penseeweb.in/#app",
       "name": "PenseeWeb AI Mindmap Generator",
       "applicationCategory": "EducationalApplication",
       "operatingSystem": "Web",
-      "url": "https://penseeweb.netlify.app",
+      "url": "https://penseeweb.in",
       "offers": [
         {
           "@type": "Offer",
@@ -119,7 +119,7 @@ Currently, **not a single page on PenseeWeb has any Schema.org markup** (no Micr
   - `datePublished` (valid ISO 8601, e.g., `2025-01-29`)
   - `dateModified` (ISO 8601)
   - `author`: `{"@type": "Organization", "name": "PenseeWeb Editorial Team"}`
-  - `publisher`: `{"@id": "https://penseeweb.netlify.app/#organization"}`
+  - `publisher`: `{"@id": "https://penseeweb.in/#organization"}`
 
 ---
 

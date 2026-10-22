@@ -22,7 +22,7 @@ However, several critical Image SEO and OpenGraph preview issues exist:
   <meta content="images/screenshot-202025-05-06-20215342.avif" property="twitter:image"/>
   ```
 - **Severity: High.**
-  1. Major social platforms (WhatsApp, LinkedIn, Twitter/X, Facebook, Slack) require **fully qualified absolute HTTPS URLs** (e.g., `https://penseeweb.netlify.app/images/...`).
+  1. Major social platforms (WhatsApp, LinkedIn, Twitter/X, Facebook, Slack) require **fully qualified absolute HTTPS URLs** (e.g., `https://penseeweb.in/images/...`).
   2. The OpenGraph specification and most social crawlers **do NOT render AVIF images** in social cards (only JPG, PNG, and GIF are universally supported). When shared on WhatsApp or Twitter, PenseeWeb shows a blank grey card or broken link preview!
   3. *Fix:* Provide an absolute `.jpg` or `.png` fallback for `og:image` and `twitter:image`.
 

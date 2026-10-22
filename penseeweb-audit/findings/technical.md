@@ -34,7 +34,7 @@
 ### 2.2 Indexability & Canonicalization
 - **Total Absence of Canonical Tags**:
   - PenseeWeb is deployed to multiple endpoints (GitHub Pages `rvunveil.github.io/penseeweb`, Netlify `penseeweb.netlify.app`, custom domain).
-  - Without self-referencing canonicals on each page (`<link rel="canonical" href="https://penseeweb.netlify.app/..." />`), Google treats each mirror as duplicate content, splitting link equity and page rank.
+  - Without self-referencing canonicals on each page (`<link rel="canonical" href="https://penseeweb.in/..." />`), Google treats each mirror as duplicate content, splitting link equity and page rank.
 - **Title Echo & Meta Omissions**:
   - All 5 articles under `resources/` have the identical default title `"PenseeWeb Studio"`.
   - Meta description is completely absent on all 5 resource articles.
@@ -58,7 +58,7 @@
 
 1. **Deploy Production `robots.txt`** (Immediate / Critical):
    - Allow Googlebot, Bingbot, and AI search citation bots (`OAI-SearchBot`, `Claude-SearchBot`, `PerplexityBot`).
-   - Declare sitemap: `Sitemap: https://penseeweb.netlify.app/sitemap.xml`.
+   - Declare sitemap: `Sitemap: https://penseeweb.in/sitemap.xml`.
 2. **Generate and Submit `sitemap.xml`** (Immediate / Critical):
    - Include all 10 core pages and articles with ISO 8601 `lastmod`.
 3. **Inject Self-Referencing Canonical Tags** (Immediate / Critical):

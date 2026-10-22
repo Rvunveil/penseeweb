@@ -12,7 +12,7 @@
 - [x] **Deploy `robots.txt`** at repository root:
   - Allow standard search engines (Googlebot, Bingbot).
   - Explicitly allow AI Answer Engine bots (`OAI-SearchBot`, `Claude-SearchBot`, `PerplexityBot`) for citation discovery.
-  - Declare `Sitemap: https://penseeweb.netlify.app/sitemap.xml`.
+  - Declare `Sitemap: https://penseeweb.in/sitemap.xml`.
 - [x] **Deploy `sitemap.xml`**:
   - List all 10 canonical URLs with valid W3C timestamps.
 - [x] **Inject Self-Referencing Canonical Tags**:

@@ -1,4 +1,4 @@
-# robots.txt for PenseeWeb (https://penseeweb.netlify.app)
+# robots.txt for PenseeWeb (https://penseeweb.in)
 # Generated according to claude-seo standards
 
 # Standard Search Engine Crawlers
@@ -54,4 +54,4 @@ User-agent: *
 Allow: /
 
 # XML Sitemap Location
-Sitemap: https://penseeweb.netlify.app/sitemap.xml
+Sitemap: https://penseeweb.in/sitemap.xml

@@ -5,11 +5,11 @@
 PenseeWeb transforms dense textbooks, 50-page notes, lecture recordings, and regional language audio into interactive, high-retention visual mindmaps. Engineered specifically for competitive Indian examinations (JEE, NEET, UPSC, CA Final, Class 10/12 Boards), PenseeWeb provides predictive exam analytics with its patent-pending "Panic Button™" to highlight high-probability exam nodes for last-minute mastery.
 
 ## Core Products & Features
-- [PenseeWeb AI App](https://penseeweb.netlify.app/): Interactive SaaS application for generating mindmaps from PDFs, documents, notes, and audio.
-- [Product Overview](https://penseeweb.netlify.app/product-page): Complete feature breakdown including Thematic Intelligence Engine, Exam Frequency Heatmaps, and Neuro-Precision learning modes.
-- [About PenseeWeb](https://penseeweb.netlify.app/about): Origins, educational philosophy, and mission to eliminate rote learning panic.
-- [Careers](https://penseeweb.netlify.app/careers): Roles in engineering, AI pedagogy, and visual design.
-- [News & Resources Hub](https://penseeweb.netlify.app/resources): Company news, educational research, and case studies.
+- [PenseeWeb AI App](https://penseeweb.in/): Interactive SaaS application for generating mindmaps from PDFs, documents, notes, and audio.
+- [Product Overview](https://penseeweb.in/product-page): Complete feature breakdown including Thematic Intelligence Engine, Exam Frequency Heatmaps, and Neuro-Precision learning modes.
+- [About PenseeWeb](https://penseeweb.in/about): Origins, educational philosophy, and mission to eliminate rote learning panic.
+- [Careers](https://penseeweb.in/careers): Roles in engineering, AI pedagogy, and visual design.
+- [News & Resources Hub](https://penseeweb.in/resources): Company news, educational research, and case studies.
 
 ## Pricing Structure (in INR)
 - **Freemium Tier:** 3 free mindmaps upon sign-up (WhatsApp OTP), plus 2 free maps/month.
@@ -20,14 +20,14 @@ PenseeWeb transforms dense textbooks, 50-page notes, lecture recordings, and reg
   - Annual: ₹2,800 (600 maps, 20% discount)
 
 ## Key Articles & Guides
-- [Academic Integrity 2.0](https://penseeweb.netlify.app/resources/penseeweb-academic-integrity-ai-india): How AI guards India's exam ecosystem with anti-hallucination protocols.
-- [Self-Healing Mindmaps for Exams](https://penseeweb.netlify.app/resources/penseeweb-ai-mindmaps-exam-success): Preventing rotting knowledge and staying exam-ready.
-- [Green AI Mindmapping](https://penseeweb.netlify.app/resources/penseeweb-ai-green-mindmapping): Saving paper and reducing carbon footprints through digital visual study.
-- [AI Mindmapping Revolution](https://penseeweb.netlify.app/resources/penseeweb-ai-mindmapping-revolution): The technological transition from creative agency to AI EdTech pioneer.
-- [Knowledge Architectures](https://penseeweb.netlify.app/resources/electrax-choosing-the-right-personal-aircraft): Tailoring mindmaps to your brain's cognitive operating system.
+- [Academic Integrity 2.0](https://penseeweb.in/resources/penseeweb-academic-integrity-ai-india): How AI guards India's exam ecosystem with anti-hallucination protocols.
+- [Self-Healing Mindmaps for Exams](https://penseeweb.in/resources/penseeweb-ai-mindmaps-exam-success): Preventing rotting knowledge and staying exam-ready.
+- [Green AI Mindmapping](https://penseeweb.in/resources/penseeweb-ai-green-mindmapping): Saving paper and reducing carbon footprints through digital visual study.
+- [AI Mindmapping Revolution](https://penseeweb.in/resources/penseeweb-ai-mindmapping-revolution): The technological transition from creative agency to AI EdTech pioneer.
+- [Knowledge Architectures](https://penseeweb.in/resources/electrax-choosing-the-right-personal-aircraft): Tailoring mindmaps to your brain's cognitive operating system.
 
 ## Contact & Social Links
-- Website: https://penseeweb.netlify.app
+- Website: https://penseeweb.in
 - LinkedIn: https://www.linkedin.com/in/penseeweb
 - Twitter: https://twitter.com/penseeweb
 - Instagram: https://instagram.com/penseeweb

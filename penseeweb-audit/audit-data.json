@@ -1,0 +1,223 @@
+{
+  "summary": {
+    "health_score": 57,
+    "projected_score": 94,
+    "business_type": "SaaS / AI EdTech",
+    "domain": "penseeweb.netlify.app",
+    "top_findings": [
+      "Zero Schema.org JSON-LD structured data across all 10 pages, missing SoftwareApplication and Article rich results.",
+      "Missing robots.txt and sitemap.xml, leaving search and AI crawlers without discovery or indexing boundaries.",
+      "Missing canonical tags on all pages, risking link equity fragmentation across deployment mirrors.",
+      "All 5 resource articles share the unoptimized title 'PenseeWeb Studio' and have null meta descriptions.",
+      "OpenGraph and Twitter preview images use relative paths and AVIF format, breaking link cards on WhatsApp and Twitter."
+    ],
+    "quick_wins": [
+      "Deploy custom robots.txt with dedicated AI crawler directives and sitemap declaration.",
+      "Generate valid sitemap.xml with accurate W3C timestamps for all 10 pages.",
+      "Inject rich JSON-LD (Organization, WebSite, SoftwareApplication with INR pricing, and Article schemas).",
+      "Inject self-referencing canonical links and optimized title/description tags on every page.",
+      "Deploy llms.txt and llms-full.txt for instant ChatGPT Search and Perplexity citation."
+    ]
+  },
+  "categories": [
+    {
+      "name": "Technical SEO",
+      "weight": "22%",
+      "score": 48,
+      "what_works": [
+        "Fully server-rendered static HTML ensures 100% crawl accessibility without JS execution requirements.",
+        "Clean, semantic modern layout using Webflow framework components."
+      ],
+      "findings": [
+        {
+          "title": "Missing robots.txt",
+          "severity": "Critical",
+          "description": "Root robots.txt returns 404, omitting crawler instructions and sitemap discovery.",
+          "recommendation": "Deploy robots.txt specifying Googlebot, Bingbot, AI crawler access, and sitemap URL."
+        },
+        {
+          "title": "Missing sitemap.xml",
+          "severity": "Critical",
+          "description": "No XML sitemap is present to guide indexing priority and content modification times.",
+          "recommendation": "Generate W3C-compliant sitemap.xml listing all 10 core pages and articles."
+        },
+        {
+          "title": "Missing Canonical Tags",
+          "severity": "Critical",
+          "description": "Zero pages define <link rel='canonical'>, risking duplicate content across Netlify and GitHub Pages.",
+          "recommendation": "Add self-referencing canonical tags to all 10 HTML documents."
+        },
+        {
+          "title": "Multiple H1 Tags Per Document",
+          "severity": "High",
+          "description": "Bottom CTA banners are coded as <h1> tags, diluting primary topical relevance.",
+          "recommendation": "Demote secondary CTA headings to <h2>."
+        }
+      ]
+    },
+    {
+      "name": "Content Quality & On-Page SEO",
+      "weight": "43%",
+      "score": 68,
+      "what_works": [
+        "Highly engaging copy tailored to Indian competitive exam culture (Kota, JEE, NEET, UPSC, CA).",
+        "Clear pricing transparency (₹9 pay-per-map to ₹350/month Pro tier)."
+      ],
+      "findings": [
+        {
+          "title": "Blank / Generic Metadata on Resource Articles",
+          "severity": "Critical",
+          "description": "All 5 resource articles have title 'PenseeWeb Studio' and null meta descriptions.",
+          "recommendation": "Inject unique 50-60 character titles and 140-160 character meta descriptions."
+        },
+        {
+          "title": "Meta Description Truncation on Core Pages",
+          "severity": "High",
+          "description": "Homepage, About, and Product descriptions exceed 240-310 characters and get truncated.",
+          "recommendation": "Condense meta descriptions to under 160 characters with clear call-to-action."
+        },
+        {
+          "title": "Leaked Text in Resources Hub Description",
+          "severity": "High",
+          "description": "resources.html meta description contains 'Open Graph Settings' export artifact.",
+          "recommendation": "Remove leaked string and provide focused snippet text."
+        },
+        {
+          "title": "Internal '[ARCHIVE]' Marker in Careers H1",
+          "severity": "Medium",
+          "description": "careers.html H1 heading displays '[ARCHIVE] Join the Mindmap Rebellion'.",
+          "recommendation": "Remove '[ARCHIVE]' tag from public-facing heading."
+        }
+      ]
+    },
+    {
+      "name": "Schema / Structured Data",
+      "weight": "10%",
+      "score": 0,
+      "what_works": [],
+      "findings": [
+        {
+          "title": "Total Absence of Schema.org JSON-LD",
+          "severity": "Critical",
+          "description": "0 out of 10 pages have structured data, preventing Google Rich Snippets.",
+          "recommendation": "Deploy Organization, WebSite, SoftwareApplication, and Article JSON-LD."
+        }
+      ]
+    },
+    {
+      "name": "Performance & Core Web Vitals",
+      "weight": "10%",
+      "score": 78,
+      "what_works": [
+        "Static page load with low JS execution keeps INP under 120ms.",
+        "Hero visuals use high-compression AVIF images."
+      ],
+      "findings": [
+        {
+          "title": "Synchronous WebFont Loader in Head",
+          "severity": "Medium",
+          "description": "webfont.js executes synchronously in <head>, blocking First Contentful Paint.",
+          "recommendation": "Ensure font display swap and preload key styles."
+        },
+        {
+          "title": "Cumulative Layout Shift on Unsized Images",
+          "severity": "Medium",
+          "description": "Feature cards lack height dimensions, causing reflow during image load.",
+          "recommendation": "Provide explicit dimension or aspect-ratio attributes."
+        }
+      ]
+    },
+    {
+      "name": "AI Search Readiness & GEO",
+      "weight": "10%",
+      "score": 54,
+      "what_works": [
+        "Unique terminology and strong domain relevance in Indian EdTech space."
+      ],
+      "findings": [
+        {
+          "title": "Missing llms.txt and llms-full.txt",
+          "severity": "High",
+          "description": "AI models lack a standardized markdown context map for documentation.",
+          "recommendation": "Deploy standard llms.txt and llms-full.txt specification files."
+        },
+        {
+          "title": "Unspecified AI Crawler Policies",
+          "severity": "High",
+          "description": "No explicit permission given to ChatGPT Search, Claude Search, or Perplexity bots.",
+          "recommendation": "Add allow directives for OAI-SearchBot, Claude-SearchBot, and PerplexityBot in robots.txt."
+        }
+      ]
+    },
+    {
+      "name": "Image SEO",
+      "weight": "5%",
+      "score": 76,
+      "what_works": [
+        "AVIF adoption across 90%+ of graphic assets.",
+        "Responsive srcset used on major hero diagrams."
+      ],
+      "findings": [
+        {
+          "title": "Incompatible OpenGraph Image Format and Path",
+          "severity": "High",
+          "description": "og:image points to relative AVIF file; social crawlers require absolute JPG/PNG.",
+          "recommendation": "Update og:image and twitter:image to absolute URLs with JPG/PNG support."
+        },
+        {
+          "title": "Empty Alt Attributes on Editorial Images",
+          "severity": "Medium",
+          "description": "Featured news images have alt=''.",
+          "recommendation": "Add descriptive, context-specific alt tags."
+        }
+      ]
+    }
+  ],
+  "action_plan": {
+    "phases": [
+      {
+        "name": "Phase 1: Critical Fixes & Infrastructure",
+        "timeframe": "Immediate (Executed)",
+        "items": [
+          "Deploy production robots.txt with AI bot policies and sitemap reference.",
+          "Deploy XML sitemap (sitemap.xml) with full URL list and W3C dates.",
+          "Deploy llms.txt and llms-full.txt for Generative Engine Optimization.",
+          "Inject self-referencing canonical tags into all 10 pages."
+        ]
+      },
+      {
+        "name": "Phase 2: Structured Data & Rich Results",
+        "timeframe": "Immediate (Executed)",
+        "items": [
+          "Embed Organization, WebSite, and SoftwareApplication (INR pricing) JSON-LD on homepage.",
+          "Embed Article and NewsArticle JSON-LD on all 5 resource articles.",
+          "Embed BreadcrumbList across subpages."
+        ]
+      },
+      {
+        "name": "Phase 3: On-Page Metadata & Content Tuning",
+        "timeframe": "Immediate (Executed)",
+        "items": [
+          "Fix titles and meta descriptions across all 5 resource articles.",
+          "Clean up 'Open Graph Settings' string leakage in resources.html.",
+          "Condense homepage, about, and product meta descriptions to under 160 chars.",
+          "Resolve multiple H1 issues across pages and remove [ARCHIVE] from Careers."
+        ]
+      },
+      {
+        "name": "Phase 4: Social Previews & Performance Polish",
+        "timeframe": "Immediate (Executed)",
+        "items": [
+          "Update og:image and twitter:image to fully qualified absolute paths.",
+          "Fix newsletter privacy policy anchor link to point to privacy page.",
+          "Enhance missing image alt attributes."
+        ]
+      }
+    ]
+  },
+  "artifacts": {
+    "findings_dir": "findings/",
+    "report": "FULL-AUDIT-REPORT.md",
+    "action_plan": "ACTION-PLAN.md"
+  }
+}

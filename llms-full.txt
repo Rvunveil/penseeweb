@@ -1,0 +1,20 @@
+# PenseeWeb - Comprehensive System & Product Reference
+
+## Platform Overview
+PenseeWeb is a specialized AI-powered cognitive SaaS application designed to solve information overload and rote memorization for Indian students, educators, and enterprise teams.
+
+### Core Problems Solved
+1. **The 3 AM Panic Problem:** Students cramming before competitive exams (JEE Main/Advanced, NEET-UG, UPSC Civil Services, CA Final, GATE, CAT, and CBSE/ICSE State Boards) struggle with dense 500-page textbooks and disorganized handwritten notes.
+2. **Knowledge Decay & Rot:** Linear notes are difficult for the human brain to retrieve under high exam pressure. Visual hierarchical mindmaps formatted with neuro-retention motifs increase long-term memory recall by up to 63%.
+3. **Multilingual Disconnect:** PenseeWeb accepts inputs in English, Hindi, and Indian regional languages (audio lecture recordings, voice notes, PDFs, textbook scans) and produces structured bilingual visual summaries.
+
+### Proprietary Technology: Panic Button™
+The Panic Button™ is an exam analytics feature built directly into PenseeWeb mindmaps. With one click, it filters complex multi-tiered node networks down to the top 20-30% critical concepts carrying a 70%+ historical pass probability based on analysis of Previous Year Questions (PYQs).
+
+### Commercial Model
+- Freemium entry with WhatsApp OTP login (3 initial free maps + 2 free maps/month).
+- Pay-per-map microtransactions starting at ₹9 to ₹15 per map, providing an affordable alternative to physical photocopy centers (xerox).
+- Pro subscriptions: ₹100 weekly, ₹350 monthly, and ₹2,800 annually for high-volume aspirants.
+
+### Company Heritage
+PenseeWeb originated from a boutique creative design agency, combining 7 years of visual information architecture with generative AI models to build pedagogically sound, aesthetically disciplined study aids.

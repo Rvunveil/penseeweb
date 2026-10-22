@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core Pages -->
+  <url>
+    <loc>https://penseeweb.netlify.app/</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://penseeweb.netlify.app/about</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://penseeweb.netlify.app/product-page</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://penseeweb.netlify.app/careers</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://penseeweb.netlify.app/resources</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+
+  <!-- Editorial Articles & Insights -->
+  <url>
+    <loc>https://penseeweb.netlify.app/resources/penseeweb-academic-integrity-ai-india</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://penseeweb.netlify.app/resources/penseeweb-ai-mindmaps-exam-success</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://penseeweb.netlify.app/resources/penseeweb-ai-green-mindmapping</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://penseeweb.netlify.app/resources/penseeweb-ai-mindmapping-revolution</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://penseeweb.netlify.app/resources/electrax-choosing-the-right-personal-aircraft</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+</urlset>

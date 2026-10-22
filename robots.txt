@@ -1,0 +1,57 @@
+# robots.txt for PenseeWeb (https://penseeweb.netlify.app)
+# Generated according to claude-seo standards
+
+# Standard Search Engine Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# AI Search & Answer Engine Crawlers (Permitted for search citability & generative summaries)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Bulk AI Model Training Scrapers
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+# Default crawler access
+User-agent: *
+Allow: /
+
+# XML Sitemap Location
+Sitemap: https://penseeweb.netlify.app/sitemap.xml

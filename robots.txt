@@ -3,9 +3,11 @@
 
 # Standard Search Engine Crawlers
 User-agent: Googlebot
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Allow: /
 
 User-agent: Bingbot
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Allow: /
 
 User-agent: Slurp
@@ -51,6 +53,7 @@ Disallow: /
 
 # Default crawler access
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Allow: /
 
 # XML Sitemap Location

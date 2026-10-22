@@ -24,7 +24,7 @@ PenseeWeb transforms dense textbooks, 50-page notes, lecture recordings, and reg
 - [Self-Healing Mindmaps for Exams](https://penseeweb.in/resources/penseeweb-ai-mindmaps-exam-success): Preventing rotting knowledge and staying exam-ready.
 - [Green AI Mindmapping](https://penseeweb.in/resources/penseeweb-ai-green-mindmapping): Saving paper and reducing carbon footprints through digital visual study.
 - [AI Mindmapping Revolution](https://penseeweb.in/resources/penseeweb-ai-mindmapping-revolution): The technological transition from creative agency to AI EdTech pioneer.
-- [Knowledge Architectures](https://penseeweb.in/resources/electrax-choosing-the-right-personal-aircraft): Tailoring mindmaps to your brain's cognitive operating system.
+- [Knowledge Architectures](https://penseeweb.in/resources/penseeweb-ai-knowledge-architecture): Tailoring mindmaps to your brain's cognitive operating system.
 
 ## Contact & Social Links
 - Website: https://penseeweb.in
